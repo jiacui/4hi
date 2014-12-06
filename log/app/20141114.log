@@ -1,0 +1,80 @@
+2014-11-14 12:16:10	lavender/WebPage.php(190)	1301	View not found:passport/register_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-14 12:16:10	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('View not found:...', 1301)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-14 13:19:09	app/Action/passport.php(60)	1022	Parameter '' is exit!
+#0 lavender/WebPage.php(132): App\Action\Passport->register_submit_action()
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-14 13:32:37	lavender/WebPage.php(190)	1301	View not found:passport/register_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-14 13:32:37	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-14 13:32:43	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-14 13:39:41	app/Action/passport.php(66)	1022	Parameter '' is exit!
+#0 lavender/WebPage.php(132): App\Action\Passport->register_submit_action()
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-14 13:39:57	app/Action/passport.php(66)	1022	Parameter '' is exit!
+#0 lavender/WebPage.php(132): App\Action\Passport->register_submit_action()
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-14 13:40:13	lavender/WebPage.php(190)	1301	View not found:passport/register_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-14 13:44:26	lavender/WebPage.php(190)	1301	View not found:passport/logout
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('logout')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-14 13:46:06	lavender/WebPage.php(190)	1301	View not found:passport/logout
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('logout')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-14 14:41:43	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-14 14:41:48	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-14 16:06:44	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-14 16:06:49	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-14 16:07:54	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#2 {main}

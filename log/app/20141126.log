@@ -1,0 +1,14 @@
+2014-11-26 22:35:09	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-26 22:55:58	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}

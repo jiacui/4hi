@@ -1,0 +1,13 @@
+2014-11-19 23:08:54	lavender/Core.php(129)	1702	config key not found,type:id_maker,key:item
+#0 lavender/IdMaker.php(14): Lavender\Core::get_config('id_maker', 'item')
+#1 base/Api/Item.php(47): Lavender\IdMaker::make('item')
+#2 app/Action/admin.php(48): Base\Api\Item::add(Array)
+#3 lavender/WebPage.php(132): App\Action\Admin->add_item_action()
+#4 lavender/WebPage.php(82): Lavender\WebPage->execute('add_item')
+#5 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#6 {main}
+2014-11-19 23:09:42	lavender/WebPage.php(190)	1301	View not found:admin/add_item
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('add_item')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}

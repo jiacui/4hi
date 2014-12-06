@@ -1,0 +1,35 @@
+2014-11-14 16:07:48	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app_system/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-14 16:07:48	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(213): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(139): Lavender\WebPage->render_auth_error('auth verify fai...', 1201)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#3 app_system/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-14 16:08:01	lavender/WebPage.php(190)	1301	View not found:index/index
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#2 app_system/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-14 16:08:01	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('View not found:...', 1301)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#3 app_system/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-14 16:08:14	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app_system/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-14 16:08:14	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(213): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(139): Lavender\WebPage->render_auth_error('auth verify fai...', 1201)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#3 app_system/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-14 16:10:13	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app_system/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#2 {main}

@@ -1,0 +1,15 @@
+2014-11-25 21:27:22	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-25 21:28:21	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-25 21:52:38	lavender/Dao/Table.php(108)	1015	first_key's value invalid
+#0 base/Api/Item.php(15): Lavender\Dao\Table->get_single('')
+#1 app/Action/order.php(22): Base\Api\Item::get('')
+#2 lavender/WebPage.php(132): App\Action\Order->index_action()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}

@@ -1,0 +1,313 @@
+2014-11-13 13:58:25	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-13 13:58:25	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(213): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(139): Lavender\WebPage->render_auth_error('session timeout...', 1212)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 14:08:42	lavender/WebPage.php(289)	1022	Parameter 'username' is invalid
+#0 app/Action/passport.php(26): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 14:08:42	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'user...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 14:09:15	lavender/WebPage.php(289)	1022	Parameter 'username' is invalid
+#0 app/Action/passport.php(26): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 14:09:15	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'user...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 14:09:49	lavender/WebPage.php(289)	1022	Parameter 'username' is invalid
+#0 app/Action/passport.php(26): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 14:09:49	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'user...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 14:10:07	lavender/WebPage.php(289)	1022	Parameter 'username' is invalid
+#0 app/Action/passport.php(26): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 14:10:07	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'user...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 14:10:42	lavender/WebPage.php(289)	1022	Parameter 'username' is invalid
+#0 app/Action/passport.php(26): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 14:10:42	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'user...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 15:52:32	lavender/WebPage.php(289)	1022	Parameter 'username' is invalid
+#0 app/Action/passport.php(26): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 15:52:32	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'user...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 15:54:11	lavender/WebPage.php(289)	1022	Parameter 'username' is invalid
+#0 app/Action/passport.php(26): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 15:54:11	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'user...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 15:58:26	lavender/WebPage.php(289)	1022	Parameter 'username' is invalid
+#0 app/Action/passport.php(27): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 15:58:26	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'user...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 15:59:15	lavender/WebPage.php(289)	1022	Parameter 'username' is invalid
+#0 app/Action/passport.php(27): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 15:59:15	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'user...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:02:10	lavender/WebPage.php(289)	1022	Parameter 'username' is invalid
+#0 app/Action/passport.php(30): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:02:10	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'user...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:03:15	lavender/WebPage.php(190)	1301	View not found:passport/login_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(NULL)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-13 16:03:15	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('View not found:...', 1301)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:03:26	lavender/WebPage.php(289)	1022	Parameter 'username' is invalid
+#0 app/Action/passport.php(30): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:03:26	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'user...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:03:40	lavender/WebPage.php(289)	1022	Parameter 'username' is invalid
+#0 app/Action/passport.php(30): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:03:40	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'user...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:03:41	lavender/WebPage.php(289)	1022	Parameter 'username' is invalid
+#0 app/Action/passport.php(30): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:03:41	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'user...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:03:41	lavender/WebPage.php(289)	1022	Parameter 'username' is invalid
+#0 app/Action/passport.php(30): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:03:41	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'user...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:12:37	lavender/WebPage.php(190)	1301	View not found:passport/login_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(NULL)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-13 16:12:37	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('View not found:...', 1301)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:12:53	lavender/WebPage.php(190)	1301	View not found:passport/login_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(NULL)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-13 16:12:53	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('View not found:...', 1301)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:14:26	lavender/WebPage.php(190)	1301	View not found:passport/login_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(NULL)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-13 16:14:26	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('View not found:...', 1301)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:14:37	lavender/WebPage.php(190)	1301	View not found:passport/login_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(NULL)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-13 16:14:37	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('View not found:...', 1301)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:14:38	lavender/WebPage.php(190)	1301	View not found:passport/login_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(NULL)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-13 16:14:38	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('View not found:...', 1301)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:18:50	app/Action/passport.php(32)	1022	Parameter 'hjc063@163.com' is invalid
+#0 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-13 16:18:50	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'hjc0...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:22:38	app/Action/passport.php(35)	1022	Parameter 'hjc063@163.com' is invalid
+#0 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-13 16:22:38	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter 'hjc0...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:24:24	app/Action/passport.php(35)	1022	Parameter '(+86)15912312312' is invalid
+#0 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-13 16:24:24	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter '(+86...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:37:44	app/Action/passport.php(35)	1022	Parameter '15912312312' is invalid
+#0 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-13 16:37:44	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter '1591...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:37:49	app/Action/passport.php(35)	1022	Parameter '159123123121' is invalid
+#0 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-13 16:37:49	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter '1591...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-13 16:37:55	app/Action/passport.php(35)	1022	Parameter '15912312312' is invalid
+#0 lavender/WebPage.php(132): App\Action\Passport->login_submit_action()
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-13 16:37:55	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('Parameter '1591...', 1022)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('login_submit')
+#3 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#4 {main}

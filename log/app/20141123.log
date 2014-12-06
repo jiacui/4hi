@@ -1,0 +1,187 @@
+2014-11-23 08:50:36	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-23 10:12:48	lavender/Session.php(127)	1211	session record not found on server.
+#0 lavender/Session.php(35): Lavender\Session->init()
+#1 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('create_order')
+#3 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-23 10:31:50	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('create_order')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-23 10:53:54	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('create_order')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-23 10:53:54	lavender/Db/Mysql.php(55)	1402	database connect failed,code:2002,msg:Connection refused
+#0 lavender/Db/Mysql.php(88): Lavender\Db\Mysql->open()
+#1 lavender/Db/Mysql.php(167): Lavender\Db\Mysql->execute('SELECT * FROM i...')
+#2 lavender/Db/Mysql.php(148): Lavender\Db\Mysql->get_by_sql('SELECT * FROM i...', 0, 10)
+#3 lavender/Dao/Table.php(93): Lavender\Db\Mysql->get('item', '', NULL, 'id desc', 0, 10)
+#4 base/Api/Item.php(35): Lavender\Dao\Table->get(NULL, NULL, NULL, 'id desc', 0, 10)
+#5 app/Action/admin.php(30): Base\Api\Item::get_list(1, 10)
+#6 lavender/WebPage.php(132): App\Action\Admin->items_action()
+#7 lavender/WebPage.php(82): Lavender\WebPage->execute('items')
+#8 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#9 {main}
+2014-11-23 11:04:37	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('create_order')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-23 11:04:37	lavender/Db/Mysql.php(55)	1402	database connect failed,code:2002,msg:Connection refused
+#0 lavender/Db/Mysql.php(88): Lavender\Db\Mysql->open()
+#1 lavender/Db/Mysql.php(167): Lavender\Db\Mysql->execute('SELECT * FROM i...')
+#2 lavender/Db/Mysql.php(148): Lavender\Db\Mysql->get_by_sql('SELECT * FROM i...', 0, 10)
+#3 lavender/Dao/Table.php(93): Lavender\Db\Mysql->get('item', '', NULL, 'id desc', 0, 10)
+#4 base/Api/Item.php(35): Lavender\Dao\Table->get(NULL, NULL, NULL, 'id desc', 0, 10)
+#5 app/Action/admin.php(30): Base\Api\Item::get_list(1, 10)
+#6 lavender/WebPage.php(132): App\Action\Admin->items_action()
+#7 lavender/WebPage.php(82): Lavender\WebPage->execute('items')
+#8 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#9 {main}
+2014-11-23 16:50:26	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('add')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-23 20:30:28	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('add')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-23 20:32:46	lavender/WebPage.php(294)	1023	Parameter 'postcode' is required
+#0 app/Action/address.php(34): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Address->add_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#3 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-23 20:42:13	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Incorrect string value: '\xE9\xBB\x84\xE5\xAE\xB6...' for column 'name' at row 1,sql:[INSERT INTO `address`(`name`,`address`,`post_code`,`mobile`,`civil_id`,`user_id`,`civil_card_pic`) VALUES('黄家萃','addr','123456','15986711174','450103198799991234','1000028','[null]')]
+#0 lavender/Db/Mysql.php(244): Lavender\Db\Mysql->execute('INSERT INTO `ad...')
+#1 lavender/Dao/Table.php(153): Lavender\Db\Mysql->insert('address', Array)
+#2 base/Api/Address.php(10): Lavender\Dao\Table->add(NULL, Array)
+#3 app/Action/address.php(63): Base\Api\Address::add(Array)
+#4 lavender/WebPage.php(132): App\Action\Address->add_submit_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-23 20:44:36	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Incorrect string value: '\xE9\xBB\x84\xE5\xAE\xB6...' for column 'name' at row 1,sql:[INSERT INTO `address`(`name`,`address`,`post_code`,`mobile`,`civil_id`,`user_id`,`civil_card_pic`) VALUES('黄家萃','addr','123456','15986711174','450103198799991234','1000028','[null]')]
+#0 lavender/Db/Mysql.php(244): Lavender\Db\Mysql->execute('INSERT INTO `ad...')
+#1 lavender/Dao/Table.php(153): Lavender\Db\Mysql->insert('address', Array)
+#2 base/Api/Address.php(10): Lavender\Dao\Table->add(NULL, Array)
+#3 app/Action/address.php(63): Base\Api\Address::add(Array)
+#4 lavender/WebPage.php(132): App\Action\Address->add_submit_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-23 20:44:58	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Incorrect string value: '\xE9\xBB\x84\xE5\xAE\xB6...' for column 'name' at row 1,sql:[INSERT INTO `address`(`name`,`address`,`post_code`,`mobile`,`civil_id`,`user_id`,`civil_card_pic`) VALUES('黄家萃','addr','123456','15986711174','450103198799991234','1000028','[null]')]
+#0 lavender/Db/Mysql.php(244): Lavender\Db\Mysql->execute('INSERT INTO `ad...')
+#1 lavender/Dao/Table.php(153): Lavender\Db\Mysql->insert('address', Array)
+#2 base/Api/Address.php(10): Lavender\Dao\Table->add(NULL, Array)
+#3 app/Action/address.php(63): Base\Api\Address::add(Array)
+#4 lavender/WebPage.php(132): App\Action\Address->add_submit_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-23 20:46:57	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Incorrect string value: '\xE9\xBB\x84\xE5\xAE\xB6...' for column 'name' at row 1,sql:[INSERT INTO `address`(`name`,`address`,`post_code`,`mobile`,`civil_id`,`user_id`,`civil_card_pic`) VALUES('黄家萃','addr','123456','15986711174','450103198799991234','1000028','[null]')]
+#0 lavender/Db/Mysql.php(244): Lavender\Db\Mysql->execute('INSERT INTO `ad...')
+#1 lavender/Dao/Table.php(153): Lavender\Db\Mysql->insert('address', Array)
+#2 base/Api/Address.php(10): Lavender\Dao\Table->add(NULL, Array)
+#3 app/Action/address.php(63): Base\Api\Address::add(Array)
+#4 lavender/WebPage.php(132): App\Action\Address->add_submit_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-23 20:46:57	lavender/WebPage.php(190)	1301	View not found:common/error
+#0 lavender/WebPage.php(202): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(142): Lavender\WebPage->render_error('execute sql fai...', 1401)
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#3 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-23 20:51:24	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Incorrect string value: '\xE9\xBB\x84\xE5\xAE\xB6...' for column 'name' at row 1,sql:[INSERT INTO `address`(`name`,`address`,`post_code`,`mobile`,`civil_id`,`user_id`,`civil_card_pic`) VALUES('黄家萃','addr','123456','15986711174','450103198799991234','1000028','[null]')]
+#0 lavender/Db/Mysql.php(244): Lavender\Db\Mysql->execute('INSERT INTO `ad...')
+#1 lavender/Dao/Table.php(153): Lavender\Db\Mysql->insert('address', Array)
+#2 base/Api/Address.php(10): Lavender\Dao\Table->add(NULL, Array)
+#3 app/Action/address.php(63): Base\Api\Address::add(Array)
+#4 lavender/WebPage.php(132): App\Action\Address->add_submit_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-23 20:52:17	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Incorrect string value: '\xE9\xBB\x84\xE5\xAE\xB6...' for column 'name' at row 1,sql:[INSERT INTO `address`(`name`,`address`,`post_code`,`mobile`,`civil_id`,`user_id`,`civil_card_pic`) VALUES('黄家萃','addr','123456','15986711174','450103198799991234','1000028','[null]')]
+#0 lavender/Db/Mysql.php(244): Lavender\Db\Mysql->execute('INSERT INTO `ad...')
+#1 lavender/Dao/Table.php(153): Lavender\Db\Mysql->insert('address', Array)
+#2 base/Api/Address.php(10): Lavender\Dao\Table->add(NULL, Array)
+#3 app/Action/address.php(63): Base\Api\Address::add(Array)
+#4 lavender/WebPage.php(132): App\Action\Address->add_submit_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-23 20:53:50	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Incorrect string value: '\xE9\xBB\x84\xE5\xAE\xB6...' for column 'name' at row 1,sql:[INSERT INTO `address`(`name`,`address`,`post_code`,`mobile`,`civil_id`,`user_id`,`civil_card_pic`) VALUES('黄家萃','addr','123456','15986711174','450103198799991234','1000028','[null]')]
+#0 lavender/Db/Mysql.php(244): Lavender\Db\Mysql->execute('INSERT INTO `ad...')
+#1 lavender/Dao/Table.php(153): Lavender\Db\Mysql->insert('address', Array)
+#2 base/Api/Address.php(10): Lavender\Dao\Table->add(NULL, Array)
+#3 app/Action/address.php(63): Base\Api\Address::add(Array)
+#4 lavender/WebPage.php(132): App\Action\Address->add_submit_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-23 20:56:06	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Incorrect string value: '\xE9\xBB\x84\xE5\xAE\xB6...' for column 'name' at row 1,sql:[INSERT INTO `address`(`name`,`address`,`post_code`,`mobile`,`civil_id`,`user_id`,`civil_card_pic`) VALUES('黄家萃','addr','123456','15986711174','450103198799991234','1000028','[null]')]
+#0 lavender/Db/Mysql.php(244): Lavender\Db\Mysql->execute('INSERT INTO `ad...')
+#1 lavender/Dao/Table.php(153): Lavender\Db\Mysql->insert('address', Array)
+#2 base/Api/Address.php(10): Lavender\Dao\Table->add(NULL, Array)
+#3 app/Action/address.php(63): Base\Api\Address::add(Array)
+#4 lavender/WebPage.php(132): App\Action\Address->add_submit_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-23 20:56:43	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Incorrect string value: '\xE9\xBB\x84\xE5\xAE\xB6...' for column 'name' at row 1,sql:[INSERT INTO `address`(`name`,`address`,`post_code`,`mobile`,`civil_id`,`user_id`,`civil_card_pic`) VALUES('黄家萃','addr','123456','15986711174','450103198799991234','1000028','[null]')]
+#0 lavender/Db/Mysql.php(244): Lavender\Db\Mysql->execute('INSERT INTO `ad...')
+#1 lavender/Dao/Table.php(153): Lavender\Db\Mysql->insert('address', Array)
+#2 base/Api/Address.php(10): Lavender\Dao\Table->add(NULL, Array)
+#3 app/Action/address.php(63): Base\Api\Address::add(Array)
+#4 lavender/WebPage.php(132): App\Action\Address->add_submit_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-23 21:08:52	app/Action/address.php(72)	1022	file error:4
+#0 app/Action/address.php(59): App\Action\Address->upload_file(Array)
+#1 lavender/WebPage.php(132): App\Action\Address->add_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#3 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-23 21:09:46	lavender/WebPage.php(191)	1301	View not found:address/add_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(NULL)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-23 21:20:23	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Data too long for column 'civil_card_pic' at row 1,sql:[INSERT INTO `address`(`name`,`address`,`post_code`,`mobile`,`civil_id`,`user_id`,`civil_card_pic`) VALUES('','','','','','1000028','[\"http:\\/\\/file.api.dbscar.com\\/pic\\/20141123\\/86\\/d0\\/869f026487d7a7a73d648639789fe6d0\"]')]
+#0 lavender/Db/Mysql.php(244): Lavender\Db\Mysql->execute('INSERT INTO `ad...')
+#1 lavender/Dao/Table.php(153): Lavender\Db\Mysql->insert('address', Array)
+#2 base/Api/Address.php(10): Lavender\Dao\Table->add(NULL, Array)
+#3 app/Action/address.php(65): Base\Api\Address::add(Array)
+#4 lavender/WebPage.php(132): App\Action\Address->add_submit_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-23 21:49:56	app/Action/address.php(82)	1022	file error:4
+#0 app/Action/address.php(62): App\Action\Address->upload_file(Array)
+#1 lavender/WebPage.php(132): App\Action\Address->add_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#3 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-23 23:04:36	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}

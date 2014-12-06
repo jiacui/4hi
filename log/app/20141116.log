@@ -1,0 +1,109 @@
+2014-11-16 11:23:56	lavender/WebPage.php(190)	1301	View not found:users
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('delete_user')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-16 11:24:45	lavender/WebPage.php(190)	1301	View not found:users
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('delete_user')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-16 11:25:30	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-16 11:26:21	lavender/WebPage.php(190)	1301	View not found:passport/register_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-16 11:26:21	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-16 11:26:47	app/Action/passport.php(70)	1022	Parameter '' is exit!
+#0 lavender/WebPage.php(132): App\Action\Passport->register_submit_action()
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-16 11:26:52	app/Action/passport.php(70)	1022	Parameter '' is exit!
+#0 lavender/WebPage.php(132): App\Action\Passport->register_submit_action()
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-16 11:28:10	lavender/WebPage.php(190)	1301	View not found:passport/register_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-16 11:28:10	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-16 11:36:14	lavender/WebPage.php(190)	1301	View not found:passport/register_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-16 11:36:14	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-16 11:46:46	lavender/WebPage.php(190)	1301	View not found:passport/logout
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('logout')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-16 11:46:55	lavender/WebPage.php(190)	1301	View not found:passport/register_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-16 11:46:55	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-16 14:35:57	lavender/Core.php(129)	1702	config key not found,type:id_maker,key:user
+#0 lavender/IdMaker.php(14): Lavender\Core::get_config('id_maker', 'user')
+#1 base/Api/Passport.php(11): Lavender\IdMaker::make('user')
+#2 app/Action/passport.php(73): Base\Api\Passport::register_user(Array)
+#3 lavender/WebPage.php(132): App\Action\Passport->register_submit_action()
+#4 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#5 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#6 {main}
+2014-11-16 14:39:29	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Incorrect datetime value: '1416119969' for column 'created' at row 1,sql:[INSERT INTO id_maker(name,num,created,updated) VALUES('default',1000000+2,1416119969,1416119969) ON DUPLICATE KEY UPDATE num=num+2,updated=1416119969]
+#0 base/Dao/IdMakerTable.php(27): Lavender\Db\Mysql->execute('INSERT INTO id_...')
+#1 lavender/IdMaker.php(33): Base\Dao\IdMakerTable->make('default', 2, '1000000')
+#2 base/Api/Passport.php(11): Lavender\IdMaker::make('account')
+#3 app/Action/passport.php(73): Base\Api\Passport::register_user(Array)
+#4 lavender/WebPage.php(132): App\Action\Passport->register_submit_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-16 14:43:19	lavender/WebPage.php(190)	1301	View not found:passport/register_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-16 14:43:19	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-16 14:44:01	lavender/WebPage.php(190)	1301	View not found:passport/register_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-16 14:44:01	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-16 14:53:44	lavender/WebPage.php(190)	1301	View not found:passport/register_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-16 14:53:44	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}

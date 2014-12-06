@@ -1,0 +1,74 @@
+2014-11-21 21:09:54	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-21 21:25:28	lavender/WebPage.php(190)	1301	View not found:passport/logout
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('logout')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-21 21:25:35	lavender/WebPage.php(190)	1301	View not found:passport/logout
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('logout')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-21 21:34:07	lavender/WebPage.php(190)	1301	View not found:passport/logout
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('logout')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-21 21:43:34	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '=',sql:[SELECT id FROM user WHERE `username`='1hj和成交量']
+#0 lavender/Db/Mysql.php(167): Lavender\Db\Mysql->execute('SELECT id FROM ...')
+#1 lavender/Db/Mysql.php(148): Lavender\Db\Mysql->get_by_sql('SELECT id FROM ...', NULL, NULL)
+#2 lavender/Dao/Table.php(93): Lavender\Db\Mysql->get('user', '`username`='1hj...', Array, NULL, NULL, NULL)
+#3 base/Api/Passport.php(18): Lavender\Dao\Table->get(NULL, Array, Array)
+#4 app/Action/passport_service.php(19): Base\Api\Passport::is_username_exit('1hj\xE5\x92\x8C\xE6\x88\x90\xE4\xBA\xA4\xE9\x87\x8F')
+#5 lavender/WebPage.php(132): App\Action\Passport_Service->check_username_action()
+#6 lavender/WebPage.php(82): Lavender\WebPage->execute('check_username')
+#7 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#8 {main}
+2014-11-21 22:12:18	lavender/WebPage.php(190)	1301	View not found:passport/register_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-21 22:12:18	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-21 22:13:22	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-21 22:13:49	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-21 22:16:48	lavender/WebPage.php(190)	1301	View not found:passport/logout
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('logout')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-21 22:17:06	lavender/WebPage.php(190)	1301	View not found:passport/logout
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('logout')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-21 22:22:59	lavender/WebPage.php(190)	1301	View not found:passport/logout
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('logout')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-21 22:36:34	lavender/WebPage.php(190)	1301	View not found:main/pay
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('pay')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-21 22:41:54	lavender/WebPage.php(190)	1301	View not found:main/pay
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('pay')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}

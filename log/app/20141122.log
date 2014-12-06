@@ -1,0 +1,12 @@
+2014-11-22 20:36:27	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-22 20:46:28	lavender/WebPage.php(190)	1301	View not found:passport/logout
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('logout')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}

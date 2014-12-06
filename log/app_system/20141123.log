@@ -1,0 +1,23 @@
+2014-11-23 10:12:47	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app_system/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-23 10:12:54	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app_system/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-23 10:31:50	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app_system/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-23 10:53:54	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app_system/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#2 {main}
+2014-11-23 11:04:37	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app_system/wwwroot/index.php(16): Lavender\WebPage::run(Array)
+#2 {main}

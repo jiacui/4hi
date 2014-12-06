@@ -1,0 +1,20 @@
+2014-11-17 13:02:13	lavender/Core.php(129)	1702	config key not found,type:id_maker,key:user
+#0 lavender/IdMaker.php(14): Lavender\Core::get_config('id_maker', 'user')
+#1 app_system/wwwroot/run.php(21): Lavender\IdMaker::make('user')
+#2 {main}
+2014-11-17 21:03:59	lavender/Core.php(129)	1702	config key not found,type:id_maker,key:user
+#0 lavender/IdMaker.php(14): Lavender\Core::get_config('id_maker', 'user')
+#1 app_system/wwwroot/run.php(22): Lavender\IdMaker::make('user')
+#2 {main}
+2014-11-17 21:04:52	lavender/Core.php(129)	1702	config key not found,type:id_maker,key:user
+#0 lavender/IdMaker.php(14): Lavender\Core::get_config('id_maker', 'user')
+#1 app_system/wwwroot/run.php(24): Lavender\IdMaker::make('user')
+#2 {main}
+2014-11-17 21:05:21	lavender/Core.php(129)	1702	config key not found,type:db,key:id_maker
+#0 lavender/Core.php(143): Lavender\Core::get_config('db', 'id_maker')
+#1 lavender/Dao/Table.php(60): Lavender\Core::get_database('mysql', 'id_maker')
+#2 lavender/Dao/Table.php(72): Lavender\Dao\Table->__construct()
+#3 [internal function]: Lavender\Dao\Table::instance()
+#4 lavender/IdMaker.php(32): call_user_func(Array)
+#5 app_system/wwwroot/run.php(24): Lavender\IdMaker::make('user')
+#6 {main}

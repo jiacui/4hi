@@ -1,0 +1,111 @@
+2014-11-24 21:50:43	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('create_order')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-24 22:00:34	lavender/WebPage.php(191)	1301	View not found:passport/logout
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('logout')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-24 22:07:22	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Incorrect decimal value: '' for column 'amount' at row 1,sql:[INSERT INTO `item`(`id`,`user_id`,`name`,`count`,`weight`,`amount`,`status`,`create_time`,`update_time`) VALUES('1000014','1000028','iphone6','1','1012','','3','2014-11-19 23:29:07','14-11-24 22:07:22') ON DUPLICATE KEY UPDATE `id`='1000014',`user_id`='1000028',`name`='iphone6',`count`='1',`weight`='1012',`amount`='',`status`='3',`create_time`='2014-11-19 23:29:07',`update_time`='14-11-24 22:07:22']
+#0 lavender/Db/Mysql.php(286): Lavender\Db\Mysql->execute('INSERT INTO `it...')
+#1 lavender/Dao/Table.php(177): Lavender\Db\Mysql->insert_or_update('item', Array, Array)
+#2 base/Api/Item.php(27): Lavender\Dao\Table->set('1000014', Array)
+#3 app/Action/admin.php(103): Base\Api\Item::update(Array)
+#4 lavender/WebPage.php(132): App\Action\Admin->update_item_clearance_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('update_item_cle...')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-24 22:18:15	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Incorrect decimal value: '' for column 'amount' at row 1,sql:[INSERT INTO `item`(`id`,`user_id`,`name`,`count`,`weight`,`amount`,`status`,`create_time`,`update_time`) VALUES('1000014','1000028','iphone6','1','1012','','3','2014-11-19 23:29:07','14-11-24 22:18:15') ON DUPLICATE KEY UPDATE `id`='1000014',`user_id`='1000028',`name`='iphone6',`count`='1',`weight`='1012',`amount`='',`status`='3',`create_time`='2014-11-19 23:29:07',`update_time`='14-11-24 22:18:15']
+#0 lavender/Db/Mysql.php(286): Lavender\Db\Mysql->execute('INSERT INTO `it...')
+#1 lavender/Dao/Table.php(177): Lavender\Db\Mysql->insert_or_update('item', Array, Array)
+#2 base/Api/Item.php(27): Lavender\Dao\Table->set('1000014', Array)
+#3 app/Action/admin.php(103): Base\Api\Item::update(Array)
+#4 lavender/WebPage.php(132): App\Action\Admin->update_item_clearance_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('update_item_cle...')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-24 22:23:36	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-24 22:25:53	lavender/Dao/Table.php(108)	1015	first_key's value invalid
+#0 base/Api/Item.php(15): Lavender\Dao\Table->get_single('$item['id']')
+#1 app/Action/order.php(35): Base\Api\Item::get('$item['id']')
+#2 lavender/WebPage.php(132): App\Action\Order->create_action()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('create')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-24 22:26:45	lavender/Dao/Table.php(108)	1015	first_key's value invalid
+#0 base/Api/Item.php(15): Lavender\Dao\Table->get_single('$item['id']')
+#1 app/Action/order.php(35): Base\Api\Item::get('$item['id']')
+#2 lavender/WebPage.php(132): App\Action\Order->create_action()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('create')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-24 22:28:19	lavender/Dao/Table.php(108)	1015	first_key's value invalid
+#0 base/Api/Item.php(15): Lavender\Dao\Table->get_single('$item['id']')
+#1 app/Action/order.php(35): Base\Api\Item::get('$item['id']')
+#2 lavender/WebPage.php(132): App\Action\Order->create_action()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('create')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-24 22:28:54	lavender/Dao/Table.php(108)	1015	first_key's value invalid
+#0 base/Api/Item.php(15): Lavender\Dao\Table->get_single('$item['id']')
+#1 app/Action/order.php(35): Base\Api\Item::get('$item['id']')
+#2 lavender/WebPage.php(132): App\Action\Order->create_action()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('create')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-24 22:30:58	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Unknown column 'item_ids' in 'field list',sql:[INSERT INTO `order`(`user_id`,`item_ids`,`address_id`,`amount`,`weight`,`status`,`create_time`,`update_time`,`id`) VALUES('1000028','1000018','$data[\'addr\'][\'id\']','200','2222','1','14-11-24 22:30:58','14-11-24 22:30:58','1000034') ON DUPLICATE KEY UPDATE `user_id`='1000028',`item_ids`='1000018',`address_id`='$data[\'addr\'][\'id\']',`amount`='200',`weight`='2222',`status`='1',`create_time`='14-11-24 22:30:58',`update_time`='14-11-24 22:30:58',`id`='1000034']
+#0 lavender/Db/Mysql.php(286): Lavender\Db\Mysql->execute('INSERT INTO `or...')
+#1 lavender/Dao/Table.php(177): Lavender\Db\Mysql->insert_or_update('order', Array, Array)
+#2 base/Api/Order.php(21): Lavender\Dao\Table->set(1000034, Array)
+#3 app/Action/order.php(48): Base\Api\Order::add(Array)
+#4 lavender/WebPage.php(132): App\Action\Order->create_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('create')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-24 22:32:01	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Unknown column 'item_ids' in 'field list',sql:[INSERT INTO `order`(`user_id`,`item_ids`,`address_id`,`amount`,`weight`,`status`,`create_time`,`update_time`,`id`) VALUES('1000028','1000018','$data[\'addr\'][\'id\']','200','2222','1','14-11-24 22:32:01','14-11-24 22:32:01','1000036') ON DUPLICATE KEY UPDATE `user_id`='1000028',`item_ids`='1000018',`address_id`='$data[\'addr\'][\'id\']',`amount`='200',`weight`='2222',`status`='1',`create_time`='14-11-24 22:32:01',`update_time`='14-11-24 22:32:01',`id`='1000036']
+#0 lavender/Db/Mysql.php(286): Lavender\Db\Mysql->execute('INSERT INTO `or...')
+#1 lavender/Dao/Table.php(177): Lavender\Db\Mysql->insert_or_update('order', Array, Array)
+#2 base/Api/Order.php(21): Lavender\Dao\Table->set(1000036, Array)
+#3 app/Action/order.php(48): Base\Api\Order::add(Array)
+#4 lavender/WebPage.php(132): App\Action\Order->create_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('create')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-24 22:32:27	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Unknown column 'item_ids' in 'field list',sql:[INSERT INTO `order`(`user_id`,`item_ids`,`address_id`,`amount`,`weight`,`status`,`create_time`,`update_time`,`id`) VALUES('1000028','1000018','1','200','2222','1','14-11-24 22:32:27','14-11-24 22:32:27','1000038') ON DUPLICATE KEY UPDATE `user_id`='1000028',`item_ids`='1000018',`address_id`='1',`amount`='200',`weight`='2222',`status`='1',`create_time`='14-11-24 22:32:27',`update_time`='14-11-24 22:32:27',`id`='1000038']
+#0 lavender/Db/Mysql.php(286): Lavender\Db\Mysql->execute('INSERT INTO `or...')
+#1 lavender/Dao/Table.php(177): Lavender\Db\Mysql->insert_or_update('order', Array, Array)
+#2 base/Api/Order.php(21): Lavender\Dao\Table->set(1000038, Array)
+#3 app/Action/order.php(48): Base\Api\Order::add(Array)
+#4 lavender/WebPage.php(132): App\Action\Order->create_action()
+#5 lavender/WebPage.php(82): Lavender\WebPage->execute('create')
+#6 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#7 {main}
+2014-11-24 22:33:07	lavender/WebPage.php(191)	1301	View not found:order/create
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('create')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-24 22:37:10	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order WHERE `user_id`='1000028' ORDER BY id desc LIMIT 0,10' at line 1,sql:[SELECT * FROM order WHERE `user_id`='1000028' ORDER BY id desc LIMIT 0,10]
+#0 lavender/Db/Mysql.php(167): Lavender\Db\Mysql->execute('SELECT * FROM o...')
+#1 lavender/Db/Mysql.php(148): Lavender\Db\Mysql->get_by_sql('SELECT * FROM o...', 0, 10)
+#2 lavender/Dao/Table.php(93): Lavender\Db\Mysql->get('order', '`user_id`='1000...', NULL, 'id desc', 0, 10)
+#3 base/Api/Order.php(30): Lavender\Dao\Table->get(NULL, NULL, Array, 'id desc', 0, 10)
+#4 app/Action/order.php(16): Base\Api\Order::get_list_by_user('1000028', 1, 10)
+#5 lavender/WebPage.php(132): App\Action\Order->index_action()
+#6 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#7 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#8 {main}
+2014-11-24 22:53:32	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}

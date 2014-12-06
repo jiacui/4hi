@@ -1,0 +1,87 @@
+2014-11-28 01:58:04	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('create_order')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-28 02:15:07	lavender/WebPage.php(191)	1301	View not found:order/create
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('create')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-28 02:15:27	lavender/WebPage.php(191)	1301	View not found:order/create
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('create')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-28 21:02:19	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-28 21:44:43	lavender/Db/Mysql.php(128)	1015	field "*" invalid
+#0 lavender/Dao/Table.php(93): Lavender\Db\Mysql->get('address', '`user_id`='1000...', Array, NULL, NULL, NULL)
+#1 base/Api/Address.php(21): Lavender\Dao\Table->get(NULL, Array, Array)
+#2 app/Action/address.php(19): Base\Api\Address::get_by_user('1000028')
+#3 lavender/WebPage.php(132): App\Action\Address->index_action()
+#4 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#5 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#6 {main}
+2014-11-28 22:08:19	lavender/WebPage.php(295)	1023	Parameter 'id' is required
+#0 app/Action/address.php(94): Lavender\WebPage->parameters(Array, 2, true)
+#1 lavender/WebPage.php(132): App\Action\Address->add_submit_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('add_submit')
+#3 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#4 {main}
+2014-11-28 22:38:36	lavender/Db/Mysql.php(301)	1015	condition is empty
+#0 lavender/Dao/Table.php(196): Lavender\Db\Mysql->update('user', NULL, '')
+#1 app/Action/address.php(100): Lavender\Dao\Table->update(NULL, NULL)
+#2 lavender/WebPage.php(132): App\Action\Address->set_default_action()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('set_default')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-28 22:39:39	lavender/Db/Mysql.php(301)	1015	condition is empty
+#0 lavender/Dao/Table.php(196): Lavender\Db\Mysql->update('user', Array, '')
+#1 app/Action/address.php(100): Lavender\Dao\Table->update(NULL, Array)
+#2 lavender/WebPage.php(132): App\Action\Address->set_default_action()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('set_default')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-28 22:41:27	lavender/Db/Mysql.php(301)	1015	condition is empty
+#0 lavender/Dao/Table.php(196): Lavender\Db\Mysql->update('user', Array, '')
+#1 app/Action/address.php(100): Lavender\Dao\Table->update(NULL, Array)
+#2 lavender/WebPage.php(132): App\Action\Address->set_default_action()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('set_default')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-11-28 22:42:06	lavender/Db/Mysql.php(301)	1015	condition is empty
+#0 lavender/Dao/Table.php(196): Lavender\Db\Mysql->update('user', Array, '')
+#1 base/Api/User.php(54): Lavender\Dao\Table->update(NULL, Array)
+#2 app/Action/address.php(100): Base\Api\User::update(NULL, Array)
+#3 lavender/WebPage.php(132): App\Action\Address->set_default_action()
+#4 lavender/WebPage.php(82): Lavender\WebPage->execute('set_default')
+#5 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#6 {main}
+2014-11-28 22:46:13	lavender/Db/Mysql.php(301)	1015	condition is empty
+#0 lavender/Dao/Table.php(196): Lavender\Db\Mysql->update('user', Array, '')
+#1 base/Api/User.php(54): Lavender\Dao\Table->update(NULL, Array)
+#2 app/Action/address.php(101): Base\Api\User::update(NULL, Array)
+#3 lavender/WebPage.php(132): App\Action\Address->set_default_action()
+#4 lavender/WebPage.php(82): Lavender\WebPage->execute('set_default')
+#5 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#6 {main}
+2014-11-28 22:47:15	lavender/WebPage.php(191)	1301	View not found:passport/logout
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('logout')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-28 23:38:59	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}

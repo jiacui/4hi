@@ -1,0 +1,87 @@
+2014-12-01 20:38:49	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-12-01 20:47:55	lavender/WebPage.php(191)	1301	View not found:passport/register_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-12-01 20:47:55	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}
+2014-12-01 20:50:32	lavender/WebPage.php(191)	1301	View not found:passport/register_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-12-01 20:50:32	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}
+2014-12-01 20:52:02	lavender/WebPage.php(191)	1301	View not found:passport/register_submit
+#0 lavender/WebPage.php(135): Lavender\WebPage->render(Array)
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('register_submit')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-12-01 20:52:02	lavender/WebPage.php(127)	1201	auth verify failed
+#0 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#1 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#2 {main}
+2014-12-01 21:22:35	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-12-01 22:09:29	lavender/Session.php(145)	1212	session timeout on server side.
+#0 lavender/Session.php(125): Lavender\Session->read_data()
+#1 lavender/Session.php(35): Lavender\Session->init()
+#2 lavender/WebPage.php(126): Lavender\Session->is_valid()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('index')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-12-01 22:15:59	lavender/WebPage.php(295)	1023	Parameter 'id' is required
+#0 app/Action/user.php(12): Lavender\WebPage->parameters(Array, 1, true)
+#1 lavender/WebPage.php(132): App\Action\User->profile_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('profile')
+#3 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#4 {main}
+2014-12-01 22:16:12	lavender/Dao/Table.php(112)	1015	id and filter is empty
+#0 base/Api/User.php(41): Lavender\Dao\Table->get_single(NULL)
+#1 app/Action/user.php(13): Base\Api\User::get(NULL)
+#2 lavender/WebPage.php(132): App\Action\User->profile_action()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('profile')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-12-01 22:26:44	lavender/WebPage.php(290)	1022	Parameter 'id' is invalid
+#0 app/Action/user.php(28): Lavender\WebPage->parameters(Array, 2, false)
+#1 lavender/WebPage.php(132): App\Action\User->update_profile_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('update_profile')
+#3 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#4 {main}
+2014-12-01 22:26:54	lavender/WebPage.php(290)	1022	Parameter 'id' is invalid
+#0 app/Action/user.php(28): Lavender\WebPage->parameters(Array, 2, false)
+#1 lavender/WebPage.php(132): App\Action\User->update_profile_action()
+#2 lavender/WebPage.php(82): Lavender\WebPage->execute('update_profile')
+#3 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#4 {main}
+2014-12-01 22:27:03	lavender/Dao/Table.php(192)	1015	first_key's value invalid
+#0 base/Api/User.php(58): Lavender\Dao\Table->update(Array, NULL)
+#1 app/Action/user.php(40): Base\Api\User::update(Array)
+#2 lavender/WebPage.php(132): App\Action\User->update_profile_action()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('update_profile')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}
+2014-12-01 22:27:19	lavender/Dao/Table.php(192)	1015	first_key's value invalid
+#0 base/Api/User.php(58): Lavender\Dao\Table->update(Array, NULL)
+#1 app/Action/user.php(40): Base\Api\User::update(Array)
+#2 lavender/WebPage.php(132): App\Action\User->update_profile_action()
+#3 lavender/WebPage.php(82): Lavender\WebPage->execute('update_profile')
+#4 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#5 {main}

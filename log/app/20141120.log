@@ -1,0 +1,40 @@
+2014-11-20 22:59:04	lavender/WebService.php(21)	1761	token verify failed
+#0 lavender/WebPage.php(109): Lavender\WebService->before_execute()
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('get_item')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-20 23:00:39	lavender/WebService.php(21)	1761	token verify failed
+#0 lavender/WebPage.php(109): Lavender\WebService->before_execute()
+#1 lavender/WebPage.php(82): Lavender\WebPage->execute('get_item')
+#2 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#3 {main}
+2014-11-20 23:04:19	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Unknown column '0' in 'where clause',sql:[SELECT * FROM item WHERE `id`=1000014 AND `0`='id' AND `1`='name' AND `2`='count' AND `3`='status' AND `4`='user_id' AND `5`='weight' LIMIT 1]
+#0 lavender/Db/Mysql.php(167): Lavender\Db\Mysql->execute('SELECT * FROM i...')
+#1 lavender/Db/Mysql.php(148): Lavender\Db\Mysql->get_by_sql('SELECT * FROM i...', 1, NULL)
+#2 lavender/Dao/Table.php(121): Lavender\Db\Mysql->get('item', '`id`=1000014 AN...', Array, NULL, 1)
+#3 base/Api/Item.php(15): Lavender\Dao\Table->get_single(1000014, Array)
+#4 app/Action/admin_service.php(15): Base\Api\Item::get(1000014)
+#5 lavender/WebPage.php(132): App\Action\Admin_Service->get_item_action()
+#6 lavender/WebPage.php(82): Lavender\WebPage->execute('get_item')
+#7 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#8 {main}
+2014-11-20 23:04:23	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Unknown column '0' in 'where clause',sql:[SELECT * FROM item WHERE `id`=1000012 AND `0`='id' AND `1`='name' AND `2`='count' AND `3`='status' AND `4`='user_id' AND `5`='weight' LIMIT 1]
+#0 lavender/Db/Mysql.php(167): Lavender\Db\Mysql->execute('SELECT * FROM i...')
+#1 lavender/Db/Mysql.php(148): Lavender\Db\Mysql->get_by_sql('SELECT * FROM i...', 1, NULL)
+#2 lavender/Dao/Table.php(121): Lavender\Db\Mysql->get('item', '`id`=1000012 AN...', Array, NULL, 1)
+#3 base/Api/Item.php(15): Lavender\Dao\Table->get_single(1000012, Array)
+#4 app/Action/admin_service.php(15): Base\Api\Item::get(1000012)
+#5 lavender/WebPage.php(132): App\Action\Admin_Service->get_item_action()
+#6 lavender/WebPage.php(82): Lavender\WebPage->execute('get_item')
+#7 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#8 {main}
+2014-11-20 23:04:44	lavender/Db/Mysql.php(96)	1401	execute sql failed,error:Unknown column '0' in 'where clause',sql:[SELECT * FROM item WHERE `id`=1000012 AND `0`='id' AND `1`='name' AND `2`='count' AND `3`='status' AND `4`='user_id' AND `5`='weight' LIMIT 1]
+#0 lavender/Db/Mysql.php(167): Lavender\Db\Mysql->execute('SELECT * FROM i...')
+#1 lavender/Db/Mysql.php(148): Lavender\Db\Mysql->get_by_sql('SELECT * FROM i...', 1, NULL)
+#2 lavender/Dao/Table.php(121): Lavender\Db\Mysql->get('item', '`id`=1000012 AN...', Array, NULL, 1)
+#3 base/Api/Item.php(15): Lavender\Dao\Table->get_single(1000012, Array)
+#4 app/Action/admin_service.php(15): Base\Api\Item::get(1000012)
+#5 lavender/WebPage.php(132): App\Action\Admin_Service->get_item_action()
+#6 lavender/WebPage.php(82): Lavender\WebPage->execute('get_item')
+#7 app/wwwroot/index.php(18): Lavender\WebPage::run(Array)
+#8 {main}
